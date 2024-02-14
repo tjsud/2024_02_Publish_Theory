@@ -1,0 +1,46 @@
+.palette{
+    display: flex;
+    width: 40vw;
+    height: 100vh;
+}
+.container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.container > div{
+    flex:1;
+    display: flex;
+    /* 가로 정렬 */
+    justify-content: flex-end;
+    /* 세로 정렬 */
+    align-items: flex-end;
+    color: white;
+    font-size: 10px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+.box1{
+    background-color: #55efc4;
+}
+.box2{
+    background-color: #00b894;
+}
+.box3{
+    background-color: #ffeaa7;
+}
+.box4{
+    background-color: #fdcb6e;
+}
+.box5{
+    background-color: #81ecec;
+}
+.box6{
+    background-color: #00cec9;
+}
+.box7{
+    background-color: #fab1a0;
+}
+.box8{
+    background-color: #e17055;
+}

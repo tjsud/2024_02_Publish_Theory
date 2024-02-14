@@ -1,0 +1,49 @@
+.parent{
+    /* display = 배치도 */
+    display: flex;
+    width: 800px;
+    background-color: #ffcccc;
+}
+.one{
+    flex: 1;
+    border: 1px solid black;
+    text-align: center;
+}
+.two{
+    flex: 1;
+    border: 1px solid black;
+    text-align: center;
+}
+.three{
+    flex: 1;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.palette{
+    display: flex;
+    flex-direction: column;
+    /* vw (view-width) : 화면의 가로 차지 비율 */
+    /* vh (view-height) : 화면의 세로 차지 비율 */
+    width: 100vw;
+    height: 100vh;
+}
+.palette > div{
+    flex: 1;
+    height: 150px;
+}
+.box1{
+    background-color: #55efc4;
+}
+.box2{
+    background-color: #81ecec;
+}
+.box3{
+    background-color: #74b9ff;
+}
+.box4{
+    background-color: #a29bfe;
+}
+.box5{
+    background-color: #dfe6e9;
+}
