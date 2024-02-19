@@ -1,0 +1,31 @@
+.palette{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 75vh;
+}
+.palette > .container{
+    display: flex;
+    flex: 1;
+}
+.container > div{
+    flex: 1;
+}
+
+.box1{background-color: #f3a683;}
+.box2{background-color: #f7d794;}
+.box3{background-color: #778beb;}
+.box4{background-color: #e77f67;}
+.box5{background-color: #cf6a87;}
+
+.box6{background-color: #f19066;}
+.box7{background-color: #f5cd79;}
+.box8{background-color: #546de5;}
+.box9{background-color: #e15f41;}
+.box10{background-color: #c44569;}
+
+.box11{background-color: #786fa6;}
+.box12{background-color: #f8a5c2;}
+.box13{background-color: #63cdda;}
+.box14{background-color: #ea8685;}
+.box15{background-color: #596275;}
