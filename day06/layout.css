@@ -1,0 +1,26 @@
+header {
+  width: 100vw;
+  height: 10vh;
+  /* position: fixed; */
+}
+main {
+  display: flex;
+  width: 100vw;
+  height: 110vh;
+}
+aside {
+  flex: 2;
+  padding: 10px 20px;
+}
+.dashboard {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: #d63031;
+}
